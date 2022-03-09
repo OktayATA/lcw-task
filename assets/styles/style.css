@@ -96,10 +96,20 @@ h1 {
 @media only screen and (min-width: 1200px) {
   .column-3 {
     float: left;
-    width: 33.33%;
+    width: 100%;
     padding: 5px;
   }
   .column-2 {
+    float: left;
+    width: 100%;
+    padding: 5px;
+  }
+  .column-3-mobile {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .column-2-mobile {
     float: left;
     width: 50%;
     padding: 5px;
@@ -122,6 +132,16 @@ h1 {
     width: 100%;
     padding: 5px;
   }
+  .column-3-mobile {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .column-2-mobile {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
   .column-header-mobile{
     display: none;
   }
@@ -132,12 +152,22 @@ h1 {
 @media screen and (min-width: 768px) and (max-width: 991.9px) {
   .column-3 {
     float: left;
-    width: 100%;
+    width: 33.33%;
     padding: 5px;
   }
   .column-2 {
     float: left;
-    width: 100%;
+    width: 50%;
+    padding: 5px;
+  }
+  .column-3-mobile {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .column-2-mobile {
+    float: left;
+    width: 50%;
     padding: 5px;
   }
   .column-header{
@@ -148,6 +178,9 @@ h1 {
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767.9px) {
+  .slideHeadArea{
+    margin-top: 4.5rem;
+  }
   .column-3 {
     float: left;
     width: 100%;
@@ -156,6 +189,16 @@ h1 {
   .column-2 {
     float: left;
     width: 100%;
+    padding: 5px;
+  }
+  .column-3-mobile {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .column-2-mobile {
+    float: left;
+    width: 50%;
     padding: 5px;
   }
   .column-header{
@@ -166,6 +209,9 @@ h1 {
   }
 }
 @media only screen and (max-width: 575.9px) {
+  .slideHeadArea{
+    margin-top: 4.5rem;
+  }
   .column-3 {
     float: left;
     width: 100%;
@@ -174,6 +220,16 @@ h1 {
   .column-2 {
     float: left;
     width: 100%;
+    padding: 5px;
+  }
+  .column-3-mobile {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .column-2-mobile {
+    float: left;
+    width: 50%;
     padding: 5px;
   }
   .column-header{
